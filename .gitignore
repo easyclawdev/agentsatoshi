@@ -1,0 +1,36 @@
+# Secrets and tokens
+*.token
+*.key
+.env
+.env.*
+*.secret
+*.password
+
+# Logs
+*.log
+logs/
+
+# Sessions
+sessions/
+session/
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OpenClaw specific
+.openclaw/credentials
+.openclaw/tokens
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
